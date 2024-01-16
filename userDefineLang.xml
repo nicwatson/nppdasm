@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="DASM" ext=".dasm">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="yes" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">%</Keywords>
+            <Keywords name="Comment">1 2 0;</Keywords>
+            <Keywords name="Words1">$ % #</Keywords>
+            <Keywords name="Words2">.REPEND .REPEAT .org .include .processor .word .byte INCLUDE&#x000D;&#x000A;INCBIN&#x000D;&#x000A;INCDIR&#x000D;&#x000A;SEG&#x000D;&#x000A;SEG.U&#x000D;&#x000A;DC.B&#x000D;&#x000A;DC.W&#x000D;&#x000A;DC.L&#x000D;&#x000A;BYTE&#x000D;&#x000A;WORD&#x000D;&#x000A;LONG&#x000D;&#x000A;DS.B&#x000D;&#x000A;DS.W&#x000D;&#x000A;DS.L&#x000D;&#x000A;DV.B&#x000D;&#x000A;DV.W&#x000D;&#x000A;DV.L&#x000D;&#x000A;HEX&#x000D;&#x000A;ERR&#x000D;&#x000A;ORG&#x000D;&#x000A;RORG&#x000D;&#x000A;PROCESSOR&#x000D;&#x000A;ECHO&#x000D;&#x000A;REND&#x000D;&#x000A;ALIGN&#x000D;&#x000A;SUBROUTINE&#x000D;&#x000A;EQU&#x000D;&#x000A;EQM&#x000D;&#x000A;SET&#x000D;&#x000A;MAC&#x000D;&#x000A;ENDM&#x000D;&#x000A;MEXIT&#x000D;&#x000A;IFCONST&#x000D;&#x000A;IFNCONST&#x000D;&#x000A;IF&#x000D;&#x000A;ELSE&#x000D;&#x000A;ENDIF&#x000D;&#x000A;EIF&#x000D;&#x000A;REPEAT&#x000D;&#x000A;REPEND&#x000D;&#x000A;.FORCE&#x000D;&#x000A;LIST&#x000D;&#x000A;ON&#x000D;&#x000A;OFF&#x000D;&#x000A;</Keywords>
+            <Keywords name="Words3">ADC&#x000D;&#x000A;AND&#x000D;&#x000A;ASL&#x000D;&#x000A;BCC&#x000D;&#x000A;BCS&#x000D;&#x000A;BEQ&#x000D;&#x000A;BIT&#x000D;&#x000A;BMI&#x000D;&#x000A;BNE&#x000D;&#x000A;BPL&#x000D;&#x000A;BRK&#x000D;&#x000A;BVC&#x000D;&#x000A;BVS&#x000D;&#x000A;CLC&#x000D;&#x000A;CLD&#x000D;&#x000A;CLI&#x000D;&#x000A;CLV&#x000D;&#x000A;CMP&#x000D;&#x000A;CPX&#x000D;&#x000A;CPY&#x000D;&#x000A;DEC&#x000D;&#x000A;DEX&#x000D;&#x000A;DEY&#x000D;&#x000A;EOR&#x000D;&#x000A;INC&#x000D;&#x000A;INX&#x000D;&#x000A;INY&#x000D;&#x000A;JMP&#x000D;&#x000A;JSR&#x000D;&#x000A;LDA&#x000D;&#x000A;LDX&#x000D;&#x000A;LDY&#x000D;&#x000A;LSR&#x000D;&#x000A;NOP&#x000D;&#x000A;ORA&#x000D;&#x000A;PHA&#x000D;&#x000A;PHP&#x000D;&#x000A;PLA&#x000D;&#x000A;PLP&#x000D;&#x000A;ROL&#x000D;&#x000A;ROR&#x000D;&#x000A;RTI&#x000D;&#x000A;RTS&#x000D;&#x000A;SBC&#x000D;&#x000A;SEC&#x000D;&#x000A;SED&#x000D;&#x000A;SEI&#x000D;&#x000A;STA&#x000D;&#x000A;STX&#x000D;&#x000A;STY&#x000D;&#x000A;TAX&#x000D;&#x000A;TAY&#x000D;&#x000A;TSX&#x000D;&#x000A;TXA&#x000D;&#x000A;TXS&#x000D;&#x000A;TYA</Keywords>
+            <Keywords name="Words4">VSYNC VBLANK WSYNC RSYNC NUSIZ0 NUSIZ1 COLUP0 COLUP1 COLUPF COLUBK CTRLPF REFP0 REFP1 PF0 PF1 PF2RESP0 POSH2 RESP1 RESM0 RESM1 RESBL AUDC0 AUDC1 AUDF0 AUDF1 AUDV0 AUDV1 GRP0 GRP1 ENAM0 ENAM1 ENABL HMP0 HMP1 HMM0 HMM1 HMBL VDELP0 VDELP1 VDELBL RESMP0 RESMP1 HMOVE HMCLR CXCLR CXM0P CXM1P CXP0FB CXP1FB CXM0FB CXM1FB CXBLPF CXPPMM INPT0 INPT1 INPT2 INPT3 INPT4 INPT5 SWCHA SWACNT SWCHB SWBCNT INTIM TIM1T TIM8T TIM64T T1024T&#x000D;&#x000A;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="B500B5" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
